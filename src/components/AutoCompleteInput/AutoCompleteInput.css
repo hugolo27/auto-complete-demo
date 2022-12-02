@@ -1,0 +1,43 @@
+.autoCompleteInput .container {
+    position: relative;
+    width: 300px;
+}
+
+.autoCompleteInput .textInput {
+    width: 300px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid darkslateblue;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+
+.autoCompleteInput .results {
+    flex-direction: column;
+    width: 300px;
+    background: white;
+    border: 1px solid darkslateblue;
+    border-top: none;
+    padding: 10px 0;
+    font-size: 18px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.autoCompleteInput .results div {
+    display: block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.autoCompleteInput .results b {
+    background: yellow;
+}
+
+.autoCompleteInput .results div:hover {
+    background: lightskyblue;
+}
+
+.autoCompleteInput .noResults {
+    padding: 10px 15px;
+}
